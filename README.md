@@ -21,10 +21,10 @@ The dataset used in this research is sourced from the Alzheimer’s Disease Neur
 
 ## Methodology
 
-**Data Preprocessing:** Conversion from DICOM to NIfTI, slice selection, normalisation, entropy-based prioritisation, and resizing to create a robust input dataset.
-**Model Training:** Training three CNNs (DenseNet201, ResNet50, VGG19) on preprocessed slices to classify AD, MCI, and NC.
-**Ensemble Learning:** Aggregation of predictions from the CNNs using WPBEM with weighted probabilities. (This part was taken bt Fathi et al., (2024?) and can be found at step 6 of the main code from line 366)
-**Performance Evaluation:** Comparison of individual CNN and ensemble model results using diagnostic metrics.
+- **Data Preprocessing:** Conversion from DICOM to NIfTI, slice selection, normalisation, entropy-based prioritisation, and resizing to create a robust input dataset.
+- **Model Training:** Training three CNNs (DenseNet201, ResNet50, VGG19) on preprocessed slices to classify AD, MCI, and NC.
+- **Ensemble Learning:** Aggregation of predictions from the CNNs using WPBEM with weighted probabilities. (This part was taken bt Fathi et al., (2024) and can be found at step 6 of the main code from line 366).
+- **Performance Evaluation:** Comparison of individual CNN and ensemble model results using diagnostic metrics.
 
 ## Folder Structure
 
