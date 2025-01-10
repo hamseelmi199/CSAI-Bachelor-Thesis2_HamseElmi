@@ -1,8 +1,8 @@
 # CSAI Bachelor Thesis
 
-**Author: **Hamse Elmi (2023232)
-**Supervisor: **Sasha Kenjeeva
-**Second Reader: **Dr. Eriko Fukuda
+**Author:** Hamse Elmi (2023232)
+**Supervisor:** Sasha Kenjeeva
+**Second Reader:** Dr. Eriko Fukuda
 
 ## Overview
 
@@ -21,32 +21,31 @@ The dataset used in this research is sourced from the Alzheimer’s Disease Neur
 
 ## Methodology
 
-**Data Preprocessing: Conversion from DICOM to NIfTI, slice selection, normalisation, entropy-based prioritisation, and resizing to create a robust input dataset.
-**Model Training: Training three CNNs (DenseNet201, ResNet50, VGG19) on preprocessed slices to classify AD, MCI, and NC.
-**Ensemble Learning: Aggregation of predictions from the CNNs using WPBEM with weighted probabilities.
-**Performance Evaluation: Comparison of individual CNN and ensemble model results using diagnostic metrics.
+**Data Preprocessing:** Conversion from DICOM to NIfTI, slice selection, normalisation, entropy-based prioritisation, and resizing to create a robust input dataset.
+**Model Training:** Training three CNNs (DenseNet201, ResNet50, VGG19) on preprocessed slices to classify AD, MCI, and NC.
+**Ensemble Learning:** Aggregation of predictions from the CNNs using WPBEM with weighted probabilities.
+**Performance Evaluation:** Comparison of individual CNN and ensemble model results using diagnostic metrics.
 
 ## Folder Structure
 
 Main Code
 
-    code_final.ipynb: Notebook containing data preprocessing, model training, and evaluation.
-    code_final.py: Script implementing the thesis methodology.
+- code_final.ipynb: Notebook containing data preprocessing, model training, and evaluation.
+- code_final.py: Script implementing the thesis methodology.
 
 Model Results
 
-    Includes model results and comparative performance metrics for CNNs and WPBEM.
+- Includes model results and comparative performance metrics for CNNs and WPBEM.
 
 Scripts
 
-    filtered_file.csv: Dataset labels for stratified splits of data.
-    Script for files.ipynb: Helper script for organizing and processing input files.
+- Script for files.ipynb: Helper script for organizing and processing input files.
 
 ## Requirements
 
-    Python 3.x
-    Libraries:
-
+- Python 3.x
+- Libraries:
+ ```
     numpy
     pandas
     matplotlib
@@ -56,9 +55,8 @@ Scripts
     scikit-learn
     pytorch
     torchvision
-
-    Additional tools:
-        dcm2niix: Conversion of DICOM files to NIfTI format.
+ ```
+- Additional tools: dcm2niix: Conversion of DICOM files to NIfTI format.
 
 ## Acknowledgments
 
