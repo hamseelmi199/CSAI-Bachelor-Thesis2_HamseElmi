@@ -15,16 +15,16 @@ Ensemble Learning: Implement the WPBEM by integrating DenseNet201, ResNet50, and
 Comparative Analysis: Evaluate and compare WPBEM performance against individual CNN models.
 Metrics Evaluation: Measure performance using accuracy, F1 score, AUC, sensitivity, and specificity.
 
-# #Dataset
+## Dataset
 
 The dataset used in this research is sourced from the Alzheimer’s Disease Neuroimaging Initiative (ADNI), Phase 3 (ADNI3). The dataset comprises Amyloid PET scans that are preprocessed to extract relevant slices for deep learning applications.
 
 ## Methodology
 
-- **Data Preprocessing: Conversion from DICOM to NIfTI, slice selection, normalisation, entropy-based prioritisation, and resizing to create a robust input dataset.
-- **Model Training: Training three CNNs (DenseNet201, ResNet50, VGG19) on preprocessed slices to classify AD, MCI, and NC.
-- **Ensemble Learning: Aggregation of predictions from the CNNs using WPBEM with weighted probabilities.
-- **Performance Evaluation: Comparison of individual CNN and ensemble model results using diagnostic metrics.
+**Data Preprocessing: Conversion from DICOM to NIfTI, slice selection, normalisation, entropy-based prioritisation, and resizing to create a robust input dataset.
+**Model Training: Training three CNNs (DenseNet201, ResNet50, VGG19) on preprocessed slices to classify AD, MCI, and NC.
+**Ensemble Learning: Aggregation of predictions from the CNNs using WPBEM with weighted probabilities.
+**Performance Evaluation: Comparison of individual CNN and ensemble model results using diagnostic metrics.
 
 ## Folder Structure
 
