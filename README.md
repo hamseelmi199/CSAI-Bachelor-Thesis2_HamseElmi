@@ -21,17 +21,16 @@ The dataset used in this research is sourced from the Alzheimer’s Disease Neur
 
 ## Methodology
 
-**Data Preprocessing:** Conversion from DICOM to NIfTI, slice selection, normalisation, entropy-based prioritisation, and resizing to create a robust input dataset.
-**Model Training:** Training three CNNs (DenseNet201, ResNet50, VGG19) on preprocessed slices to classify AD, MCI, and NC.
-**Ensemble Learning:** Aggregation of predictions from the CNNs using WPBEM with weighted probabilities.
-**Performance Evaluation:** Comparison of individual CNN and ensemble model results using diagnostic metrics.
+- **Data Preprocessing:** Conversion from DICOM to NIfTI, slice selection, normalisation, entropy-based prioritisation, and resizing to create a robust input dataset.
+- **Model Training:** Training three CNNs (DenseNet201, ResNet50, VGG19) on preprocessed slices to classify AD, MCI, and NC.
+- **Ensemble Learning:** Aggregation of predictions from the CNNs using WPBEM with weighted probabilities. (This part was taken bt Fathi et al., (2024) and can be found at step 6 of the main code from line 366).
+- **Performance Evaluation:** Comparison of individual CNN and ensemble model results using diagnostic metrics.
 
 ## Folder Structure
 
 Main Code
 
-- code_final.ipynb: Notebook containing data preprocessing, model training, and evaluation.
-- code_final.py: Script implementing the thesis methodology.
+- code_final.py: Python file containing data preprocessing, model training, and evaluation.
 
 Model Results
 
@@ -39,7 +38,7 @@ Model Results
 
 Scripts
 
-- Script for files.ipynb: Helper script for organizing and processing input files.
+- script_for_file_processing.ipynb: Jupyter notebook file containing script for file format conversion from DICOM to NIfTI.
 
 ## Requirements
 
@@ -60,7 +59,7 @@ Scripts
 
 ## Acknowledgments
 
-This research was conducted under the guidance of Sasha Kenjeeva. The data was obtained from the ADNI3 dataset, and the WPBEM framework was adapted from the work of Fathi et al. (2024).
+This research was conducted under the guidance of Sasha Kenjeeva. The data was obtained from the ADNI3 dataset, and the WPBEM framework was adapted from the work of Fathi et al. (2024). 
 Contact
 
 ## For any questions or further information, please contact:
