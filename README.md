@@ -30,8 +30,7 @@ The dataset used in this research is sourced from the Alzheimer’s Disease Neur
 
 Main Code
 
-- code_final.ipynb: Notebook containing data preprocessing, model training, and evaluation.
-- code_final.py: Script implementing the thesis methodology.
+- code_final.py: Python file containing data preprocessing, model training, and evaluation.
 
 Model Results
 
@@ -39,7 +38,7 @@ Model Results
 
 Scripts
 
-- Script for files.ipynb: Helper script for organizing and processing input files.
+- script_for_file_processing.ipynb: Jupyter notebook file containing script for file format conversion from DICOM to NIfTI.
 
 ## Requirements
 
