@@ -10,10 +10,10 @@ This repository contains the code for the Bachelor thesis titled "Early Diagnosi
 
 ## Objectives
 
-    Early Diagnosis: Develop a robust method for early detection of Alzheimer's Disease using Amyloid PET scans.
-    Ensemble Learning: Implement the WPBEM by integrating DenseNet201, ResNet50, and VGG19 to enhance classification accuracy.
-    Comparative Analysis: Evaluate and compare WPBEM performance against individual CNN models.
-    Metrics Evaluation: Measure performance using accuracy, F1 score, AUC, sensitivity, and specificity.
+Early Diagnosis: Develop a robust method for early detection of Alzheimer's Disease using Amyloid PET scans.
+Ensemble Learning: Implement the WPBEM by integrating DenseNet201, ResNet50, and VGG19 to enhance classification accuracy.
+Comparative Analysis: Evaluate and compare WPBEM performance against individual CNN models.
+Metrics Evaluation: Measure performance using accuracy, F1 score, AUC, sensitivity, and specificity.
 
 # #Dataset
 
